@@ -34,6 +34,9 @@ docker-compose up
 2. **Запускаем SUT**
 
 Для этого открываем новую вкладку в Терминале IDEA и вводим следующую команду:
+```java
+java -jar artifacts/aqa-shop.jar
+```
 - для СУБД **MySQL**:
 ```java
 java -Dspring.datasource.url=jdbc:mysql://192.168.99.100:3306/app -jar artifacts/aqa-shop.jar
